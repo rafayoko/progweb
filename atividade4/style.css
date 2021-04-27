@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Oldlondon';
+    src: url(fontes/SnowtopCaps.otf) format('truetype')
+
+}
+
+body{
+background-image: url(imagens/neve.jpg);
+    width: 1000px;
+    font-size: 125%;
+    margin: auto;
+    text-align: justify;
+    font-family: 'inherit';
+  
+
+
+}
+header{
+    background-image: url();
+text-align: center;
+font-size: 30px;
+
+
+
+}
+hr{
+    color: rgba(0, 0, 0, 0.068);
+   
+}
+nav{
+   text-align:center;
+   font-size: 17px;
+   
+}
+h1{
+ font-family:'OldLondon';
+
+}
+span{
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'inherit';
+    padding-inline: 50px;
+}
+
+
+
+section{
+    display: inline-block;
+    width: 458px;
+    /*border: solid 1px rgb(31, 17, 17);*/
+    border-radius: 20px;
+    height: 250px;
+    float: left;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    margin: 0.1%;
+    font-size: 17px;
+    
+
+}
+
+.full {
+   column-count: 1;
+width: 95%;
+padding: 5px;
+height: 500px;
+float: left;
+
+}
+img{
+    width: 400px;
+    float: left;
+    margin: 1.5%;
+}
+a{
+    color: black;
+}
+
+a:hover{
+    color:#57F2E3;
+}
+h3{
+    text-align: center;
+}
