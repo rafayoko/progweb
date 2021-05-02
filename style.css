@@ -85,3 +85,19 @@ a:hover{
 h3{
     text-align: center;
 }
+h1{
+    transition-property:color;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+        
+    
+    }
+    h1:hover{
+        color:rgb(242, 249, 255);}
+    img{
+        transition-property: transform;
+        transition-duration: 0.2s;
+    }
+    img:hover{
+        transform:scale(1.7)
+    }
