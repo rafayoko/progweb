@@ -32,14 +32,14 @@ h1{
 
 section{
 
-    display: inline-block;
+    display: inline;
     width: 400px;
     /*border: solid 1px rgb(31, 17, 17);*/
     border-radius: 20px;
     height: 250px;
     background: rgb(242, 249, 255);
     font-size: 17px;
- 
+    float: left;
     
 
 }
@@ -113,15 +113,17 @@ h1{
   }
   
   .descriçãorafaela{
-      display: inline-block;
-      height: 100px;
-      width: 300px;
-
+      display: inline;
+      height: 50px;
+      width: 600px;
+      float: right;
       background-size: cover;
       margin-top: 0px;
       transition-duration: .5s;
       transition-delay: .1s;    
       text-align: center;
+      padding: 0.1%;
+     
   }
   
   
