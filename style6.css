@@ -103,8 +103,9 @@ h1{
   }
   
   .frameazul {
+    float: right;
       text-align: center;
-      display:inline-block;
+      display:inline;
       height: 550px;
       width: 600px;
       background-size: cover;
