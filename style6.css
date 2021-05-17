@@ -3,11 +3,7 @@
     font-family: 'Oldlondon';
     src: url(fontes/SnowtopCaps.otf) format('truetype')
 
-}
 
-.titulo{
-  font-family: 'Oldlondon';
-  src: url(fontes/SnowtopCaps.otf) format('truetype')
 }
 body{
 background-image: url(imagens/neve.jpg);
