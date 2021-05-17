@@ -19,6 +19,9 @@ function displayPicture(element){
 else if(element.id == "rafa5") {
   txt.setAttribute('data-value', texto[4]);
 }
+else if(element.id == "rafa6") {
+  txt.setAttribute('data-value', texto[5]);
+}
   else {
       txt.setAttribute('data-value', "");
   }
