@@ -1,5 +1,5 @@
 function displayPicture(element){
-  const frame = document.getElementById("framevitor");
+  const frame = document.getElementById("framerafaela");
   frame.style.backgroundImage="url('"+element.src+"')";
 
   var txt = document.getElementById("textofoto");
@@ -25,7 +25,7 @@ else if(element.id == "rafa5") {
 }
 
 function undisplayPicture(){
-  const frame = document.getElementById("framevitor");
+  const frame = document.getElementById("framerafaela");
   frame.style.backgroundImage="none";
   
   var txt = document.getElementById("textofoto");
