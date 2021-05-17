@@ -118,7 +118,7 @@ h1{
       width: 600px;
       float: right;
       background-size: cover;
-      margin-top: 0px;
+      margin-top: 5px;
       transition-duration: .5s;
       transition-delay: .1s;    
       text-align: center;
