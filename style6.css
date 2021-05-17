@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Oldlondon';
+    src: url(fontes/SnowtopCaps.otf) format('truetype')
+
+}
+
+.titulo{
+  font-family: 'Oldlondon';
+  src: url(fontes/SnowtopCaps.otf) format('truetype')
+}
+body{
+background-image: url(imagens/neve.jpg);
+    width: 1000px;
+    font-size: 125%;
+    margin: auto;
+    text-align: justify;
+    font-family: 'inherit';
+  
+
+
+}
+header{
+    background-image: url();
+text-align: center;
+font-size: 30px;
+
+
+
+}
+hr{
+    color: rgba(0, 0, 0, 0.068);
+   
+}
+nav{
+   text-align:center;
+   font-size: 17px;
+   
+}
+h1{
+ font-family:'OldLondon';
+
+}
+span{
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'inherit';
+    padding-inline: 50px;
+}
+
+
+
+section{
+    display: inline-block;
+    width: 400px;
+    /*border: solid 1px rgb(31, 17, 17);*/
+    border-radius: 20px;
+    height: 250px;
+    float: left;
+    background: rgb(242, 249, 255);
+    font-size: 17px;
+    
+
+}
+
+.full {
+   column-count: 1;
+width: 95%;
+padding: 5px;
+height: 500px;
+float: left;
+
+}
+.limeteriafoto{
+    width: 400px;
+    float: left;
+    margin: 1.5%;
+}
+a{
+    color: black;
+}
+
+a:hover{
+    color:#57F2E3;
+}
+h3{
+    text-align: center;
+}
+h1{
+    transition-property:color;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+        
+    
+    }
+    h1:hover{
+        color:rgb(242, 249, 255);}
+    img{
+        transition-property: transform;
+        transition-duration: 0.2s;
+    }
+  .limeteriafoto:hover{
+        transform:scale(1.7)
+    }
+
+    .albumrafa{
+      display:block;
+      border-bottom: solid 1px rgba(255, 255, 255, 0);
+      height: auto;
+
+  }
+  
+  img {
+      image-orientation: center;
+      width: 50px;
+      height: 50px;
+      border: solid 1px wheat;
+  }
+  
+  .rafaela{
+      display: inline-block;
+      width: auto;
+      height:auto;
+      float: left;
+     
+      margin-top: 5px;
+      padding: 0px;
+  }
+  
+  .frameazul {
+      text-align: center;
+      display:inline-block;
+      height: 550px;
+      width: 600px;
+      background-size: cover;
+      transition-duration: .5s;
+      transition-delay: .1s;    
+  }
+  
+  .descriçãovitor{
+  float: right;
+      display: inline-block;
+      height: 100px;
+      width: 300px;
+
+      background-size: cover;
+      margin-top: 0px;
+      transition-duration: .5s;
+      transition-delay: .1s;    
+      text-align: center;
+  }
+  
+  
+  #textofoto::before {
+      padding-right:1x;
+      content: attr(data-value);   
+  }
+
+
+
+
+

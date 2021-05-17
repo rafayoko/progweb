@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafaela Yoko</title>
+    <link rel="shortcut icon" href="imagens/unicamp.ico"image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style6.css">
+    <script src="js.atividade6/functions6.js"> </script>
+    <script>
+        var senha = prompt("Coloque a senha para acessar");
+            
+        if (senha =="rafa"){
+	document.getElementById("atividade6").style.display = 'block';
+	}else if(senha ==""){
+		alert("campo obrigatorio");window.location = "atividade6.html" 
+
+}else{
+alert("senha errada");window.location = "atividade4.html"
+}
+     
+
+        <form >
+            <input type="text" id="comentario"/>
+
+        <input type="button" id="addcomentario" value="postar">
+        
+        </form>
+        
+        <ul id="comentarioadicionados"></ul>
+        <script>
+            var button = document.getElementById("addcomentario");
+
+        function handleButtonClick(){
+            var textinput = document.getElementById("comentario");
+            var textoinserido = textinput.value; 
+            var li= document.createElement("li");
+            li.innerHTML = textoinserido;
+            
+            var ul= document.getElementById("comentarioadicionados");
+            ul.appendChild(li);
+                
+        }
+        button.onclick=handleButtonClick;
+
+        </script>
+
+        <body>
+           
+<section class="albumrafa">
+    <h2 > Álbum de fotos de Rafaela Yoko </br> e Vitor Cintra</h2>
+
+
+    <img id="rafa1" onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" src="imagens/rafacalifa.jpeg">
+    <img id="rafa2" onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" src="imagens/invocada.jpeg"/>
+    <img id="rafa3" onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" src="imagens/rafapraaia.jpeg"/>
+    <img id="rafa4" onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" src="imagens/vitorsorrindo.jpeg"/>
+    <img id="rafa5" onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" src="imagens/vitortintA.jpeg"/>
+    <img id="rafa6" onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" src="imagens/vitortouca.jpeg"/>
+
+</section>    
+
+<section class="rafaela">
+    <div id = "framevitor" class="frameazul"></div>
+</section>
+
+<section class="descriçãovitor">
+    <div id = "textofoto" class="texto"></div>
+</section>
+
+    
+</body>
+</html>
