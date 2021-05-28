@@ -10,6 +10,10 @@ app.use(cors());
 
 notes = ["Primeira nota", "Segunda nota"];
 
+
+// Porta que eu estou ouvindo
+app.listen(process.env.PORT || 3000);
+
 app.get('/', function(req,res){ 
     res.send('Hello World')
 });
@@ -62,5 +66,3 @@ app.get('/mensagens/:id',
             res.send("Mensagem removida com sucesso")
         ;})
 
-// Porta que eu estou ouvindo
-app.listen(process.env.PORT || 3000);
